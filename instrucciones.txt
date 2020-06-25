@@ -1,0 +1,5 @@
+hay una carpeta llamada librerias, con todas las librerias necesarias que hay que añadir a netbeans (4 en total)
+
+he añadido una bdd con articulos ya creados, la bdd a crear se llama onlineshop
+
+el usuario admin es DNI: 12345678Z - contraseña: admin

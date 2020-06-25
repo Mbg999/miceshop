@@ -1,0 +1,80 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26-feb-2020, 13:05:20
+    Author     : IES TRASSIERRA
+*/
+
+@font-face { /* https://fonts.google.com/specimen/Trade+Winds */
+    font-family: 'Trade Winds';
+    src: URL('/Tienda/librerias/fonts/TradeWinds-Regular.ttf');
+}
+@font-face { /* https://fonts.google.com/specimen/Spartan */
+    font-family: 'Spartan';
+    src: URL('/Tienda/librerias/fonts/Spartan-VariableFont_wght.ttf');
+}
+
+*:not(h1):not(h2):not(h3):not(h4):not(h5) {
+    font-family: 'Spartan';
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Trade Winds';
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-image: url('/Tienda/imgs/bg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#main-container {
+    min-height: 100%;
+    position: relative;
+    background: rgba(7,225,232,1);
+    background: -moz-linear-gradient(top, rgba(7,225,232,1) 0%, rgba(0,84,162,1) 19%, rgba(17,25,74,1) 33%, rgba(12,11,45,1) 41%, rgba(53,15,100,1) 48%, rgba(63,23,137,1) 58%, rgba(53,15,100,1) 65%, rgba(53,15,100,1) 76%, rgba(218,9,199,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(7,225,232,1)), color-stop(19%, rgba(0,84,162,1)), color-stop(33%, rgba(17,25,74,1)), color-stop(41%, rgba(12,11,45,1)), color-stop(48%, rgba(53,15,100,1)), color-stop(58%, rgba(63,23,137,1)), color-stop(65%, rgba(53,15,100,1)), color-stop(76%, rgba(53,15,100,1)), color-stop(100%, rgba(218,9,199,1)));
+    background: -webkit-linear-gradient(top, rgba(7,225,232,1) 0%, rgba(0,84,162,1) 19%, rgba(17,25,74,1) 33%, rgba(12,11,45,1) 41%, rgba(53,15,100,1) 48%, rgba(63,23,137,1) 58%, rgba(53,15,100,1) 65%, rgba(53,15,100,1) 76%, rgba(218,9,199,1) 100%);
+    background: -o-linear-gradient(top, rgba(7,225,232,1) 0%, rgba(0,84,162,1) 19%, rgba(17,25,74,1) 33%, rgba(12,11,45,1) 41%, rgba(53,15,100,1) 48%, rgba(63,23,137,1) 58%, rgba(53,15,100,1) 65%, rgba(53,15,100,1) 76%, rgba(218,9,199,1) 100%);
+    background: -ms-linear-gradient(top, rgba(7,225,232,1) 0%, rgba(0,84,162,1) 19%, rgba(17,25,74,1) 33%, rgba(12,11,45,1) 41%, rgba(53,15,100,1) 48%, rgba(63,23,137,1) 58%, rgba(53,15,100,1) 65%, rgba(53,15,100,1) 76%, rgba(218,9,199,1) 100%);
+    background: linear-gradient(to bottom, rgba(7,225,232,1) 0%, rgba(0,84,162,1) 19%, rgba(17,25,74,1) 33%, rgba(12,11,45,1) 41%, rgba(53,15,100,1) 48%, rgba(63,23,137,1) 58%, rgba(53,15,100,1) 65%, rgba(53,15,100,1) 76%, rgba(218,9,199,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#07e1e8', endColorstr='#da09c7', GradientType=0 );
+}
+
+
+footer {
+    position: absolute !important;
+    bottom: 0;
+    width: 100%;
+}
+
+.card-columns .card {
+    border: 1px solid #bbb;
+    
+}
+
+main {
+    padding-bottom: 190px !important;
+}
+
+form {
+    background-color: whitesmoke;
+    padding: 15px;
+    border-radius: .25em;
+}
+
+#table_wrapper a, #table_wrapper label,
+#table_wrapper div, #table_wrapper th {
+    color: #f8f9fa !important;
+}
+
+#table_wrapper .current {
+    color: black !important;
+}
