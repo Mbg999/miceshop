@@ -1,7 +1,7 @@
 # La Ratonería mice shop
-This is a mice shop made with MySQL, JSP, JSTL, Bootstrap 4, a js DataTable library and a HTML2PDF library
+This is a multilanguage mice shop made with MySQL, JSP, JSTL, Bootstrap 4, a js DataTable library and a HTML2PDF library. Currently in spanish and english.
 
-It has users and a admin system
+It has users and a admin system.
 
 It has a list of items, a cart, you can add, update and delete items in the cart, or purchase your cart items.
 
