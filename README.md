@@ -1,4 +1,4 @@
-# miceshop
+# La Ratonería mice shop
 This is a mice shop made with MySQL, JSP, JSTL, Bootstrap 4, a js DataTable library and a HTML2PDF library
 
 It has users and a admin system
