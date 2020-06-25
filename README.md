@@ -7,15 +7,17 @@ It has a list of items, a cart, you can add, update and delete items in the cart
 
 After purchase it will generate your ticket
 
-<p>
-  <img src="https://i.imgur.com/YT8EbCQ.png" width="250px" alt="Shop 1">
-  <img src="https://i.imgur.com/r0p05Y3.png" width="250px" alt="Shop 2">
-</p>
-<p>
-  <img src="https://i.imgur.com/7N0WWyh.png" width="250px" alt="Shop 3">
-  <img src="https://i.imgur.com/rMt6NMA.png" width="250px" alt="Shop 4">
-</p>
-<p>
-  <img src="https://i.imgur.com/YfMnVmr.png" width="250px" alt="Shop 5">
-  <img src="https://i.imgur.com/WafVl48.png" width="250px" alt="Shop 6">
-</p>
+<iframe src="https://i.imgur.com/YT8EbCQ.png" name="bigView" id="bigView"></iframe>
+
+<div align="center">
+  <img src="https://i.imgur.com/YT8EbCQ.png" width="250px" alt="Shop 1" target="bigView">
+  <img src="https://i.imgur.com/r0p05Y3.png" width="250px" alt="Shop 2" target="bigView">
+</div>
+<div align="center">
+  <img src="https://i.imgur.com/7N0WWyh.png" width="250px" alt="Shop 3" target="bigView">
+  <img src="https://i.imgur.com/rMt6NMA.png" width="250px" alt="Shop 4" target="bigView">
+</div>
+<div align="center">
+  <img src="https://i.imgur.com/YfMnVmr.png" width="250px" alt="Shop 5" target="bigView">
+  <img src="https://i.imgur.com/WafVl48.png" width="250px" alt="Shop 6" target="bigView">
+</div>
